@@ -38,6 +38,15 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
+/*
+
+just some documentation... so we end up with a conflict
+
+
+ */
+
+
 /**
  * TeleOp Mode
  * <p>
