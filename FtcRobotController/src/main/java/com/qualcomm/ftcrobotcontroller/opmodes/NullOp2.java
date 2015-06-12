@@ -71,8 +71,13 @@ public class NullOp2 extends OpMode {
      */
     @Override
     public void loop() {
-        telemetry.addData("1 Start", "NullOp started at " + startDate);
+        telemetry.addData("1 Start", "NullOp2 started at " + startDate);
         telemetry.addData("2 Status", "running for " + runtime.toString());
+        if(gamepad1.a) {
+            telemetry.addData("3 A Button","pushed");
+        } else {
+            telemetry.addData("3 A Button","");
+        }
     }
 
     /*
