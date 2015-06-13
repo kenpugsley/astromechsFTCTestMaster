@@ -40,17 +40,7 @@ import java.util.Date;
 
 /*
 
-
-Yeah... this should conflict
-
- */
-
-
-
-/*
-
-just some documentation... so we end up with a conflict
-
+This is simply another NullOp ... just testing.
 
  */
 
@@ -80,6 +70,8 @@ public class NullOp2 extends OpMode {
     public void start() {
         startDate = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(new Date());
         runtime.reset();
+
+
     }
 
     /*

@@ -31,7 +31,10 @@
 
   <uses-feature android:name="android.hardware.usb.accessory" />
 
+  <!-- Modified from the original from Qualcomm to kick off the application from the
+     FTCApplicationContextProvider.  Only the android:name attribute has been added. -->
   <application
+    android:name=".FTCApplicationContextProvider"
     android:allowBackup="true"
     android:icon="@drawable/ic_launcher"
     android:label="@string/app_name"
