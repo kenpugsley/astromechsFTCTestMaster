@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="opmodes" pattern="src[FtcRobotController]:com.qualcomm.ftcrobotcontroller.opmodes..*" />
+</component>
